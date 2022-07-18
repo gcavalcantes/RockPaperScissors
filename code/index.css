@@ -1,6 +1,8 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 75px;
+    display: flex;
+    align-items: center;
   }
 
 .background {
@@ -8,7 +10,13 @@ html {
 }
 
 h2 {
+    text-align: center;
     color: white;
+    background: -webkit-linear-gradient(white, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: grid;
+    margin-left: 55px;
 }
 
 button, ul {
@@ -29,4 +37,8 @@ button {
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+}
+
+#result {
+    color: yellow;
 }
