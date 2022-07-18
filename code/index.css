@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+  }
+
+.background {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, #2b7755 0%, rgba(84,122,126,1) 89.8% );
+}
+
+h2 {
+    color: white;
+}
+
+button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+button {
+    border: 0;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    font-size: 18px;
+    margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+}
