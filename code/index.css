@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 75px;
-    display: flex;
+    
     align-items: center;
   }
 
@@ -12,11 +12,8 @@ html {
 h2 {
     text-align: center;
     color: white;
-    background: -webkit-linear-gradient(white, gray);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     display: grid;
-    margin-left: 55px;
+    margin-left: 100px;
 }
 
 button, ul {
