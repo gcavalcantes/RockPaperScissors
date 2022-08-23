@@ -39,3 +39,9 @@ button {
 #result {
     color: yellow;
 }
+
+.button-group{
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+}
